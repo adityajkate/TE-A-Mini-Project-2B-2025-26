@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+
+# Claude
+.claude
+
+# Data directories
+ml/data/raw/*.csv
+ml/data/processed/*.csv
+backend/.runtime/
+
+# Model artifacts (large files - regenerate with training scripts)
+models/
+*.joblib
+*.pkl
+
+# Artifacts are already ignored in artifacts/.gitignore
